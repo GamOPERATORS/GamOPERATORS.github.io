@@ -62,16 +62,14 @@ table {
   border: solid 1px #7f1d1d;
   min-width: 70%;
 }
-tr {
-  background-color: #c62828;
+
+th {
+  background-color: #e52d27;
   color: #ffffff;
 }
-tr:nth-child(2n) {
+td {
   background-color: #0f0f0f;
-}
-th {
-  background: var(--theme-color);
-  color: #fff;
+  color: #ffffff;
 }
 th, td {
   border: solid 1px #7f1d1d;
