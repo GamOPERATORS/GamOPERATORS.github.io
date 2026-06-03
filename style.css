@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #ff4444;
+  --theme-color: #D32F2F;
 }
 
 * {
@@ -18,8 +18,8 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #ff4444;
-  background-color:#000000      
+  color: #e53935;
+  background-color:#0f0f0f      
 }
 
 /* --------------------
