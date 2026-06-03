@@ -3,7 +3,7 @@
 -------------------- */
 
 :root {
-  --theme-color: #D32F2F;
+  --theme-color: #e52d27;
 }
 
 * {
@@ -18,7 +18,7 @@ html, body {
 body {
   margin: 0;
   padding: 30px;
-  color: #e53935;
+  color: #ffffff;
   background-color:#0f0f0f      
 }
 
@@ -59,20 +59,21 @@ li:before {
 table {
   border-spacing: 0;
   border-collapse: collapse;
-  border: solid 1px #f0f0f0;
+  border: solid 1px #7f1d1d;
   min-width: 70%;
 }
 tr {
-  background-color: #fff;
+  background-color: #c62828;
+  color: #ffffff;
 }
 tr:nth-child(2n) {
-  background-color: #f9f9f9;
+  background-color: #0f0f0f;
 }
 th {
   background: var(--theme-color);
   color: #fff;
 }
 th, td {
-  border: solid 1px #f0f0f0;
+  border: solid 1px #7f1d1d;
   padding: 0.5rem;
 }
